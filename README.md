@@ -1,6 +1,6 @@
 # PingMe
 
-PingMe is a small CLI tool to store messages and send out notifications.
+PingMe is a small CLI tool to store messages and send out Desktop notifications.
 
 ## Building
 
@@ -64,6 +64,6 @@ The ID of each message can be found via the `pingme list` command.
 The `pingme daemon` command runs the daemon which continuously performs the following:
 
 1. Query the database for messages whose notification time is in the next N seconds
-2. Sends notifications for these messages
+2. Sends Desktop notifications for these messages
 3. Waits for N seconds
 

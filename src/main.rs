@@ -16,7 +16,7 @@ mod cli;
 mod db;
 mod models;
 
-pub const MIGRATIONS: EmbeddedMigrations = embed_migrations!(".\\src\\db\\migrations");
+pub const MIGRATIONS: EmbeddedMigrations = embed_migrations!("./src/db/migrations");
 
 fn str_to_timedelta(s: &str) -> Result<TimeDelta, &str> {
     if s.len() < 2 {
